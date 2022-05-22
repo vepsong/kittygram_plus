@@ -1,6 +1,6 @@
 from rest_framework import viewsets
 
-from .models import Owner
+from .models import Owner, Cat
 from .serializers import CatSerializer, OwnerSerializer
 
 
